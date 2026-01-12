@@ -1,4 +1,5 @@
 *What I’ve Got On My Hands*
+
 Column - What it means in product terms
 Invoice - A completed user action (one purchase session)
 StockCode - Item-level interaction
@@ -17,3 +18,9 @@ Going through the data I can ascertain, to an extent that:
 4. Activation point is the user's first successful purchase
 5. Retention is the repeat purchases over time
 6. Business goal is to increase the number of users who return repeatedly after their first purchase.
+
+So this analysis is supposed to answer these (for now):
+
+- how many users return after their first purchase?
+- how quickly do they repeat their actions
+- where is the largest drop-off in repeat usage.
