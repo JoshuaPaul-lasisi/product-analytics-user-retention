@@ -41,3 +41,21 @@ To properly explain this FOCUS we can look at these:
 3. how many purchases we usually have every 30 days. We will just use the average.
 
 We can't use total revenue when our focus is more purchases since the revenue might be coming from only a few repeat users.
+
+
+On this note, I'd try to answer a few questions using this anlysis:
+1. how many users return after their first complete purchase?
+because that directly influences my FOCUS METRIC
+
+2. how quickly do they return for the second purchase?
+cos this helps us more than checking volume
+
+3. where do people dropoff the most after that first purchase?
+so we can plug user leakages and bring more people to the finish line
+
+4. what distinguishes the one-time buyers from the repeat buyers?
+so I can see what way I can make the one-time guys more like the repeat buyers
+
+5. and do those that return to make the second purchase keep returning?
+so I can focus on the guys that are truly repeat buyers, not just accidental repeats. shey you get?
+
