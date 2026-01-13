@@ -59,3 +59,9 @@ so I can see what way I can make the one-time guys more like the repeat buyers
 5. and do those that return to make the second purchase keep returning?
 so I can focus on the guys that are truly repeat buyers, not just accidental repeats. shey you get?
 
+From the day out we were abe to ready:  
+- The dataset spans from December 2009 till December 2011. That's 2 years
+- We have 5,942 unique customers across 53,628 unique invoices. That looks like a good thing for us.
+- We have 229,950 neggative quantities. Those should be returns or cancellations.
+- There are entries, about 242,000 rows without Customer IDs. How did we know what customer that is. We will exclude them from the analysis.
+- Some descriptions are missing. Not a big deal though.
