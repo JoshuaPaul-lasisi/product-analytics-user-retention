@@ -59,9 +59,28 @@ so I can see what way I can make the one-time guys more like the repeat buyers
 5. and do those that return to make the second purchase keep returning?
 so I can focus on the guys that are truly repeat buyers, not just accidental repeats. shey you get?
 
-From the day out we were abe to ready:  
+From the dataset we were abe to find that:  
 - The dataset spans from December 2009 till December 2011. That's 2 years
-- We have 5,942 unique customers across 53,628 unique invoices. That looks like a good thing for us.
-- We have 229,950 neggative quantities. Those should be returns or cancellations.
+- We have 5,942 unique customers across 5,305 unique products (based on stock code) and 53,628 unique invoices. That looks like a good thing for us.
+- We have 229,950 negative quantities. Those should be returns or cancellations.
 - There are entries, about 242,000 rows without Customer IDs. How did we know what customer that is. We will exclude them from the analysis.
 - Some descriptions are missing. Not a big deal though.
+- We have annexes in 43 countries.
+- One invoice can have multiple items.
+
+
+
+
+The dataset has a few issues with regards to the identification of customers and description of the products.
+For the product description, we could say it is an oversight and use the stock code to trace it and find the product description and use that to fill in those missing sections but it kind of shows the point.
+For the customer ID, we could use the invoice number to find the customer ID and use that to fill in the missing sections.
+
+But solving it is not the issue, that it was missing is the issue. While percentage-wise it's a small amount, the absolute amount is on the high side. If it was a smaller dataset and these were missing it'd be disastrous.
+
+It shows that their system needs automation on the data entry side especially since they have annexes in 43 countries.
+
+THe sheer amount of products they have is large (5698) so they definitely need that automation.
+
+That aside, the number of returns and cancellations are disturbing. It would be even worse if it was in only a few countries or if it was only a few products. We would have to remove that product from that annex or drop that product completely based on the respective suspicion.
+
+Then again, I won't use everything here in the analysis.
