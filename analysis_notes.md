@@ -93,3 +93,29 @@ THe sheer amount of products they have is large (5698) so they definitely need t
 That aside, the number of returns and cancellations are disturbing. It would be even worse if it was in only a few countries or if it was only a few products. We would have to remove that product from that annex or drop that product completely based on the respective suspicion.
 
 Then again, I won't use everything here in the analysis.
+
+
+
+
+Based on what I've seen from the data so far I have certain things I'd want to confirm. More or less my hypotheses.
+
+1. Most users don't return after their first purchase.
+cos if this is true, it'll mean I'm dealing with an acquisition heavy platform, not compounding user value. so there'll be no need to consider retention at all.
+
+2. Users that return, return quickly
+this is to judge if retention efforts should start immediately they make the first purchase or wait for some time.
+
+3. The largest drop-off happens immediately after the first purchase 
+it'll mean that the purchase experience itself is the biggest bottleneck. UX would be the issue to solve in such a case 
+
+4. One-time buyers behave differently from repeat buyers
+this will help us see how to make one-time buyers become repeat buyers and even tailor our ads towards those that fit the repeat-buyer persona.
+
+5. Second purchasers are far more likely to keep buying from us than first purchasers.
+this means we will optimize our system to make sure they buy the second time and not just the first time.
+
+6. Returns and cancellations correlate with lower retention
+this will prove that operational friction is the retention killer.
+
+7. Retention varies with location and geography 
+this can show if local issues and whatnot affect them when using the platform. this way we'll be able to optimize to satisfy each locality and country 
