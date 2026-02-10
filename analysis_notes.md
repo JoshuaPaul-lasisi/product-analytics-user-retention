@@ -1,5 +1,6 @@
-**What I’ve Got On My Hands**
+### What I’ve Got On My Hands
 
+<<<<<<< HEAD
 Column -|- What it means in product terms
 Invoice -|- A completed user action (one purchase session)
 StockCode -|- Item-level interaction
@@ -8,8 +9,27 @@ Quantity -|- Intensity of engagement (and returns if negative)
 InvoiceDate -|- Event timestamp (this is the backbone)
 Price -|- Value generated
 Customer ID -|- User identity
+=======
+Column - What it means in product terms
+
+Invoice - A completed user action (one purchase session)
+
+StockCode - Item-level interaction
+
+Description - Product metadata (mostly ignorable)
+
+Quantity - Intensity of engagement (and returns if negative)
+
+InvoiceDate - Event timestamp (this is the backbone)
+
+Price - Value generated
+
+Customer ID - User identity
+>>>>>>> d79f2d106975884f76f1fe674c006cdd29e0f0a4
+
 
 So this is not just a Sales dataset, it's a User event data where the value section is purchase.
+
 
 Going through the data I can ascertain, to an extent that:
 1. Product is an online retail platform
@@ -85,13 +105,3 @@ That aside, the number of returns and cancellations are disturbing. It would be 
 
 Then again, I won't use everything here in the analysis.
 
-___
-Moving on....
-
-To completely explore the system we have at hand, we can make certain conjectures, hypotheses of some sort, to judge the system we have and better ascertain the state of things while moving towards the main goal.
-
-Damn! I sabi speak English o!
-
-Okay!
-
-The first conjecture we can state is MOST USERS DO NOT RETURN AFTER THEIR FIRST PURCHASE.
