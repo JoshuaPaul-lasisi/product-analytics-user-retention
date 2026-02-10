@@ -1,13 +1,13 @@
 **What I’ve Got On My Hands**
 
-Column - What it means in product terms
-Invoice - A completed user action (one purchase session)
-StockCode - Item-level interaction
-Description - Product metadata (mostly ignorable)
-Quantity - Intensity of engagement (and returns if negative)
-InvoiceDate - Event timestamp (this is the backbone)
-Price - Value generated
-Customer ID - User identity
+Column -|- What it means in product terms
+Invoice -|- A completed user action (one purchase session)
+StockCode -|- Item-level interaction
+Description -|- Product metadata (mostly ignorable)
+Quantity -|- Intensity of engagement (and returns if negative)
+InvoiceDate -|- Event timestamp (this is the backbone)
+Price -|- Value generated
+Customer ID -|- User identity
 
 So this is not just a Sales dataset, it's a User event data where the value section is purchase.
 
@@ -36,7 +36,7 @@ We can't look at daily or weekly cos it's too short a time to measure repeat pur
 
 
 To properly explain this FOCUS we can look at these:
-1. percentage of users make their first purchase
+1. percentage of users that make their second purchase
 2. time between first and the second purchase. We can check the median.
 3. how many purchases we usually have every 30 days. We will just use the average.
 
@@ -63,7 +63,7 @@ From the dataset we were abe to find that:
 - The dataset spans from December 2009 till December 2011. That's 2 years
 - We have 5,942 unique customers across 5,305 unique products (based on stock code) and 53,628 unique invoices. That looks like a good thing for us.
 - We have 229,950 negative quantities. Those should be returns or cancellations.
-- There are entries, about 242,000 rows without Customer IDs. How did we know what customer that is. We will exclude them from the analysis.
+- There are entries, about 242,000 rows without Customer IDs. How do we know what customer that is? We will exclude them from the analysis.
 - Some descriptions are missing. Not a big deal though.
 - We have annexes in 43 countries.
 - One invoice can have multiple items.
@@ -84,3 +84,14 @@ THe sheer amount of products they have is large (5698) so they definitely need t
 That aside, the number of returns and cancellations are disturbing. It would be even worse if it was in only a few countries or if it was only a few products. We would have to remove that product from that annex or drop that product completely based on the respective suspicion.
 
 Then again, I won't use everything here in the analysis.
+
+___
+Moving on....
+
+To completely explore the system we have at hand, we can make certain conjectures, hypotheses of some sort, to judge the system we have and better ascertain the state of things while moving towards the main goal.
+
+Damn! I sabi speak English o!
+
+Okay!
+
+The first conjecture we can state is MOST USERS DO NOT RETURN AFTER THEIR FIRST PURCHASE.

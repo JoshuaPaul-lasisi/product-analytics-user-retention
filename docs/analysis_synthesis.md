@@ -16,6 +16,6 @@
 - The structure resembles real internal transactional event data used by e-commerce teams.
 
 #### What Worries Me
-- Returns need to be handles explicitly so retention metrics are not distorted.
+- Returns need to be handled explicitly so retention metrics are not distorted.
 - A small group of highly active users may dominate aggregate metrics, masking poor retention among the majority.
 - Excluding rows with Customer ID is necessary but materially reduces the usable dataset and must be acknowldeged when interpreting results.
