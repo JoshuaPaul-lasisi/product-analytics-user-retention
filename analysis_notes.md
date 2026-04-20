@@ -1,15 +1,7 @@
 ### What I’ve Got On My Hands
 
-<<<<<<< HEAD
-Column -|- What it means in product terms
-Invoice -|- A completed user action (one purchase session)
-StockCode -|- Item-level interaction
-Description -|- Product metadata (mostly ignorable)
-Quantity -|- Intensity of engagement (and returns if negative)
-InvoiceDate -|- Event timestamp (this is the backbone)
-Price -|- Value generated
-Customer ID -|- User identity
 =======
+
 Column - What it means in product terms
 
 Invoice - A completed user action (one purchase session)
