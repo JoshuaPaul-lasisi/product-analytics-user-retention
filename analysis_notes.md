@@ -130,3 +130,13 @@ this will prove that operational friction is the retention killer.
 this can show if local issues and whatnot affect them when using the platform. this way we'll be able to optimize to satisfy each locality and country
 
 
+Now, my brethren, we have run the hypotheses and have found that all of them are rejected except hypotheses 3 and 4. 
+
+Our hypotheses now become statements:
+1. Majority of the users return after the first purchase.
+2. Most users don't return within the month after their first purchase
+3. The largest dropoff truly does happen after the first purchase
+4. One-time buyers and repeat buyers truly behave differently
+5. Second purchases don't seem to ascertain continuous purchases
+6. Retention doesn't actually reduce with increasing returns and cancellations at all.
+7. The retention rates across the dofferent countries don't actually vary significantly.
